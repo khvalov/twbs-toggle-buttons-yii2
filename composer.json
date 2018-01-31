@@ -1,0 +1,25 @@
+{
+    "name": "khvalov/twbs-toggle-buttons-yii2",
+    "description": "Yii2 extension for small javascript snippet to use Bootstrap Button Groups",
+    "keywords": ["bootstrap",
+	"radio",
+	"checkbox"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Val Kh"
+        }
+    ],
+    "require": {
+        "prokki/twbs-toggle-buttons":"*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+    }
+}
