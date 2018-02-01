@@ -6,7 +6,7 @@ class TwbsToggleButtonsAssets extends \yii\web\AssetBundle
 {
    
 
-    public $sourcePath = '@vendor/components/widgets/InputmaskMultiWidget/assets';
+    public $sourcePath = '@vendor/prokki/twbs-toggle-buttons/src/js';
 
     public $depends =
     [
