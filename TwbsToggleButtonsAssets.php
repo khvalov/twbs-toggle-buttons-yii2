@@ -2,7 +2,7 @@
 
 namespace khvalov\twbstogglebuttonswidget;
 
-class TwbsToggleButtonsAssets extends \yii\web\AssetBundle
+class TwbsToggleButtonsWidgetAssets extends \yii\web\AssetBundle
 {
    
 
