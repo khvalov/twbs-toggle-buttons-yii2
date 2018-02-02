@@ -1,5 +1,5 @@
 <?php
-namespace khvalov\TwbsToggleButtonsWidget;
+namespace khvalov\twbstogglebuttonswidget;
 
 use Yii;
 

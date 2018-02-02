@@ -1,6 +1,6 @@
 <?php
 
-namespace khvalov\TwbsToggleButtons;
+namespace khvalov\twbstogglebuttonswidget;
 
 class TwbsToggleButtonsAssets extends \yii\web\AssetBundle
 {
