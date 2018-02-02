@@ -15,7 +15,7 @@ class TwbsToggleButtonsWidget extends \yii\widgets\InputWidget
     {
         parent::run();
 
-        TwbsToggleButtonsAssets::register($this->getView());
+        TwbsToggleButtonsWidgetAssets::register($this->getView());
 
         return $this->render(
             'TwbsToggleButtonsWidget',

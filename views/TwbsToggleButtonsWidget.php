@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\web\View;
 // Register asset bundle
-$path=InputmaskMultiAssets::register($this);
+//$path=InputmaskMultiAssets::register($this);
 
 $inputId=uniqid();
 $placeholder=isset($options['placeholder'])?$options['placeholder']:'';
