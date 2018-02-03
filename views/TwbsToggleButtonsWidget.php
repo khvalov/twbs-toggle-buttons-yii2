@@ -52,7 +52,7 @@ if(empty($model) && empty($attribute)){
             false,
             ['value'=>'']
         );
-        echo "<i class='fa fa-times'></i> None";
+        echo "<i class='fa fa-times'></i> Not defined";
         echo Html::endTag('div');
 
 } else { 
