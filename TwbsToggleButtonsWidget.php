@@ -6,6 +6,7 @@ use Yii;
 class TwbsToggleButtonsWidget extends \yii\widgets\InputWidget
 {
     public $options;
+    public $items;
 
     public function init(){
         parent::init();
@@ -23,6 +24,7 @@ class TwbsToggleButtonsWidget extends \yii\widgets\InputWidget
                 'id' => $this->getId(),
                 'name' => $this->name,
                 'value' => $this->value,
+                'items' =>$this->items,
                 'options' => $this->options,
                 'model' =>$this->model,
                 'attribute' =>$this->attribute
