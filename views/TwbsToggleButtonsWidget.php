@@ -8,7 +8,7 @@ use yii\web\View;
 echo Html::beginTag(
     'div',
     [
-        'class' => 'twbs-toggle-buttons-widget',
+        'class' => 'form-control twbs-toggle-buttons-widget',
         'data-toggle'=>'buttons',
         'id' => $id,
     ]
@@ -27,7 +27,7 @@ if(empty($model) && empty($attribute)){
         echo Html::beginTag(
             'div',
             [
-                'class'=>'btn'.$active,
+                'class'=>'btn btn-sm'.$active,
                 'role'=>'button'
             ]
         );
@@ -36,14 +36,14 @@ if(empty($model) && empty($attribute)){
             false,
             ['value'=>$item]
         );
-        echo $item;
+        echo "<b>".$item."</b>";
         echo Html::endTag('div');
     }
 
         echo Html::beginTag(
             'div',
             [
-                'class'=>$fired?'btn':'btn active',
+                'class'=>$fired?'btn btn-sm':'btn btn-sm active',
                 'role'=>'button'
             ]
         );
